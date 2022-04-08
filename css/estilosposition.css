@@ -1,0 +1,16 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    left: 200px;
+}
+
+.rectangulo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:blue;
+    position: absolute;
+    margin-top: 170px;
+}

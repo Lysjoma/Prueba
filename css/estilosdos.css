@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.titulo{
+    margin: 20px Auto;
+}
+
+.titulo h1{
+    color: white;
+    text-shadow: 0px 0px 10px #FF0000;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.titulo img{
+    width: 150px;
+    transform: translateX(700px);
+}
+
+.contenido{
+    width:1000px ;
+    margin: 30px Auto;
+}
+
+.contenido h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+.contenido ul{
+    list-style-image: url(../imgdos/lunalista.png);
+}
+
+.personaje{
+    width: 800px;
+    background: linear-gradient(#F9A9FB,#F9D3FA);
+    margin: 30px 30px;
+    padding: 30px 30px;
+    box-shadow: 3px 3px 7px #999999;
+    font-family: 'Mulish', sans-serif;
+}
+
+.personaje img{
+    width: 150px;
+    border: 7px solid #FFFFFF;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.personaje h2{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.personaje p{
+    text-align: justify;
+}
+
+.boton{
+    width: 120px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boton a{
+    margin: 20px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.boton:hover{
+    background-color: #0000FF;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;    
+}
+
+.titulo img{ /* se puede dejar en el estilo que ya se habia creado para la misma clase */
+    transform: translateX(700px);
+    transition: transform 10s linear 3s;
+}
+
+.titulo h1{  /* se puede dejar en el estilo que ya se habia creado para la misma clase */
+    transform: translateY(-55px);
+    transition: transform 5s linear 4s;
+}
+
+.personaje img:hover{
+    transform: rotate(-45deg) scale(1.5);
+    transition-duration: 4s;
+    /*transform: rotate(-60deg) scale(1.5); 
+    transition: transform 3s ease-out 1s;
+    estilo de la profe*/
+}
+
+.cajaprincipal{
+    background-color: #000000;
+    width: 270px;
+    height: 350px;
+    color: #FFFFFF;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px #999999;
+    overflow: hidden;
+}
+
+.encabezado{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0px;
+}
+
+.cajaperfil{
+    width: 540px;
+}
+
+.foto, .header2{
+    width: 270px;
+    text-align: center;
+    margin: 20px 0;
+    float: left;
+}
+
+.foto img{
+    width: 150px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.header2 img{
+    width: 200px;
+    height: 100px;
+    border: 5px solid #FFFFFF;
+}
+
+.cajaperfil:hover{
+    transform: translate(-260px);
+    transition-duration: 1s;
+}
+
